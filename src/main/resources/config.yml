@@ -1,0 +1,9 @@
+#The prefix messages are sent with.
+#Default: '&c&lInvsee &7&l>> '
+prefix: '&c&lTheInvsee &7&l>> '
+#Sends a message in console if a player preforms an action in this plugin.
+#Default: true
+log-actions: true
+#Advanced mode has the same features but its in a GUI.
+#Default: false
+advancedmode: false

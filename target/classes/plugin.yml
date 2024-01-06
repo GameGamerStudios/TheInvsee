@@ -1,0 +1,20 @@
+name: TheInvsee
+version: '${project.version}'
+main: me.cormicmahaffeygrauer.main.Invsee
+api-version: '1.20'
+prefix: INVSEE
+authors: [GameGamerStudios]
+description: The only invsee plugin you will ever need!
+commands:
+  invsee:
+    description: The main AdvancedInvsee command.
+    permission: invsee.invsee
+    permission-message: You can't do that!
+  invseeadmin:
+    description: Admin stuff for the AdvancedInvsee plugin.
+    permission: invsee.admin
+    permission-message: You can't do that!
+  endersee:
+    description: The invsee command but for ender chests.
+    permission: invsee.endersee
+    permission-message: You can't do that!
