@@ -4,7 +4,7 @@
   <groupId>me.cormicmahaffey-grauer</groupId>
   <artifactId>TheInvsee</artifactId>
   <name>TheInvsee</name>
-  <version>DEV-0.1-BETA</version>
+  <version>1.0</version>
   <description>The only invsee plugin you will ever need!</description>
   <build>
     <plugins>

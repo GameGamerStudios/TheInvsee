@@ -29,11 +29,11 @@ public final class Invsee extends JavaPlugin {
         invseeMenu = new InvseeMenu();
         enderseeMenu = new EnderseeMenu();
 
-        /* Put in comments unless it's a dev build */
+        /* Put in comments unless it's a dev build
         Bukkit.getLogger().warning(getPrefix() + "You are using a dev build!");
         Bukkit.getLogger().warning(getPrefix() + "It is highly recommended to use a stable build.");
         getServer().getPluginManager().registerEvents(new DevBuildListener(this), this);
-        /* Put in comments unless it's a dev build */
+        Put in comments unless it's a dev build */
 
         getConfig().options().copyDefaults();
         saveDefaultConfig();

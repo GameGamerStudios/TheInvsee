@@ -6,7 +6,7 @@
 
   <groupId>me.cormicmahaffey-grauer</groupId>
   <artifactId>TheInvsee</artifactId>
-  <version>DEV-0.1-BETA</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>TheInvsee</name>

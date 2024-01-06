@@ -2,7 +2,7 @@ name: TheInvsee
 version: '${project.version}'
 main: me.cormicmahaffeygrauer.main.Invsee
 api-version: '1.20'
-prefix: INVSEE
+prefix: TheInvsee
 authors: [GameGamerStudios]
 description: The only invsee plugin you will ever need!
 commands:

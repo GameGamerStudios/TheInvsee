@@ -34,12 +34,12 @@ public class InvseeAdminCommand implements CommandExecutor {
                 {
                     if (args[1].equalsIgnoreCase("on"))
                     {
-                        main.getConfig().set("advanced-mode", true);
+                        main.getConfig().set("advancedmode", true);
+                        main.saveConfig();
                         p.sendMessage(main.getPrefix() + ChatColor.GREEN + "Advanced mode enabled.");
-                        main.reloadConfig();
                     } else if (args[1].equalsIgnoreCase("off")) {
-                        main.getConfig().set("advanced-mode", false);
-                        main.reloadConfig();
+                        main.getConfig().set("advancedmode", false);
+                        main.saveConfig();
                         p.sendMessage(main.getPrefix() + ChatColor.GREEN + "Advanced mode disabled.");
                     }
                 }
